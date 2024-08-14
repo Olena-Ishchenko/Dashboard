@@ -1,0 +1,10 @@
+@import url('./reset.css');
+@import url('./sidebar.css');
+@import url('./customers.css');
+
+.dashboard-container {
+  display: flex;
+  width: 1440px;
+  height: 100%;
+  background: #fafbff;
+}

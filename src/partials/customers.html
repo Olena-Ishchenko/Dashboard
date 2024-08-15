@@ -1,3 +1,128 @@
-<section>
-  <h2>Hello Evano</h2>
+<section class="customers-container">
+  <h2 class="customers-hello">Hello Evano👋</h2>
+  <div class="customers-content-container">
+    <div class="customers-title-container">
+      <div>
+        <h3 class="customers-title">All Customers</h3>
+        <p class="customers-text">Active members</p>
+      </div>
+
+      <form class="customers-search-form">
+        <input
+          class="customers-search-input"
+          type="text"
+          name="search"
+          placeholder="Search"
+        />
+        <button class="customers-search-btn" type="submit">
+          <svg class="customers-search-icon" height="24" width="24">
+            <use href="../images/icon.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <table class="customers-table">
+      <thead>
+        <tr>
+          <th class="customers-table-thead">Customer Name</th>
+          <th class="customers-table-thead">Company</th>
+          <th class="customers-table-thead">Phone Number</th>
+          <th class="customers-table-thead">Email</th>
+          <th class="customers-table-thead">Country</th>
+          <th class="customers-table-thead">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="customers-table-text">Jane Cooper</td>
+          <td class="customers-table-text">Microsoft</td>
+          <td class="customers-table-text">(225) 555-0118</td>
+          <td class="customers-table-text">jane@microsoft.com</td>
+          <td class="customers-table-text">United States</td>
+          <td><span class="customers-table-status">Active</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Floyd Miles</td>
+          <td class="customers-table-text">Yahoo</td>
+          <td class="customers-table-text">(205) 555-0100</td>
+          <td class="customers-table-text">floyd@yahoo.com</td>
+          <td class="customers-table-text">Kiribati</td>
+          <td><span class="customers-table-status">Inactive</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Ronald Richards</td>
+          <td class="customers-table-text">Adobe</td>
+          <td class="customers-table-text">(302) 555-0107</td>
+          <td class="customers-table-text">ronald@adobe.com</td>
+          <td class="customers-table-text">Israel</td>
+          <td><span class="customers-table-status">Inactive</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Marvin McKinney</td>
+          <td class="customers-table-text">Tesla</td>
+          <td class="customers-table-text">(252) 555-0126</td>
+          <td class="customers-table-text">marvin@tesla.com</td>
+          <td class="customers-table-text">Iran</td>
+          <td><span class="customers-table-status">Active</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Jerome Bell</td>
+          <td class="customers-table-text">Google</td>
+          <td class="customers-table-text">(629) 555-0129</td>
+          <td class="customers-table-text">jerome@google.com</td>
+          <td class="customers-table-text">Réunion</td>
+          <td><span class="customers-table-status">Active</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Kathryn Murphy</td>
+          <td class="customers-table-text">Microsoft</td>
+          <td class="customers-table-text">(406) 555-0120</td>
+          <td class="customers-table-text">kathryn@microsoft.com</td>
+          <td class="customers-table-text">Curaçao</td>
+          <td><span class="customers-table-status">Active</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Jacob Jones</td>
+          <td class="customers-table-text">Yahoo</td>
+          <td class="customers-table-text">(208) 555-0112</td>
+          <td class="customers-table-text">jacob@yahoo.com</td>
+          <td class="customers-table-text">Brazil</td>
+          <td><span class="customers-table-status">Active</span></td>
+        </tr>
+        <tr>
+          <td class="customers-table-text">Kristin Watson</td>
+          <td class="customers-table-text">Facebook</td>
+          <td class="customers-table-text">(704) 555-0127</td>
+          <td class="customers-table-text">kristin@facebook.com</td>
+          <td class="customers-table-text">Åland Islands</td>
+          <td><span class="customers-table-status">Inactive</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination-container">
+      <p class="pagination-text">Showing data 1 to 8 of 256K entries</p>
+      <ul class="pagination-list">
+        <li class="pagination-item">
+          <a href="">
+            <svg class="pagination-icon-prev" height="12" width="8">
+              <use href="../images/icon.svg#icon-chevron"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="pagination-item"><a href="">1</a></li>
+        <li class="pagination-item"><a href="">2</a></li>
+        <li class="pagination-item"><a href="">3</a></li>
+        <li class="pagination-item"><a href="">4</a></li>
+        <li class="pagination-item"><span>...</span></li>
+        <li class="pagination-item"><a href="">40</a></li>
+        <li class="pagination-item">
+          <a href="">
+            <svg class="pagination-icon-next" height="12" width="8">
+              <use href="../images/icon.svg#icon-chevron"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>

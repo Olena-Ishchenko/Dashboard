@@ -1,0 +1,14 @@
+body {
+  font-family: Poppins, sans-serif;
+  background: #fafbff;
+  margin: 0;
+  padding-right: 95px;
+  /* padding-top: 36px; */
+  width: 1440px;
+  height: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 71px;
+}

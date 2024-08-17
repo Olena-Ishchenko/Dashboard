@@ -9,6 +9,7 @@ export default defineConfig({
   },
   root: 'src',
   build: {
+    sourcemap: true,
     rollupOptions: {
       input: glob.sync('./src/*.html'),
     },

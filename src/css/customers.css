@@ -67,7 +67,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  /* max-width: 126px; */
 }
 
 .customers-search-input {
@@ -247,10 +246,6 @@ tbody tr:hover {
     font-size: 14px;
   }
 
-  .customers-search-form {
-    /* max-width: 174px; */
-  }
-
   .customers-search-input {
     font-size: 12px;
     width: 204px;
@@ -344,12 +339,6 @@ tbody tr:hover {
 
   .customers-text {
     font-size: 14px;
-  }
-
-  .customers-search-form {
-    /* width: 216px;
-    max-width: none; */
-    /* max-width: 216px; */
   }
 
   .customers-search-input {

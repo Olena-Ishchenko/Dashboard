@@ -67,7 +67,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 126px;
+  /* max-width: 126px; */
 }
 
 .customers-search-input {
@@ -80,6 +80,7 @@
   letter-spacing: -0.01em;
   color: #b5b7c0;
   padding-left: 30px;
+  width: 156px;
 }
 
 .customers-search-btn {
@@ -247,11 +248,12 @@ tbody tr:hover {
   }
 
   .customers-search-form {
-    max-width: 174px;
+    /* max-width: 174px; */
   }
 
   .customers-search-input {
     font-size: 12px;
+    width: 204px;
   }
 
   .customers-search-icon {
@@ -345,13 +347,15 @@ tbody tr:hover {
   }
 
   .customers-search-form {
-    width: 216px;
-    max-width: none;
+    /* width: 216px;
+    max-width: none; */
+    /* max-width: 216px; */
   }
 
   .customers-search-input {
     height: 38px;
     padding-left: 40px;
+    width: 216px;
   }
 
   .customers-search-btn {

@@ -67,7 +67,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  width: 156px;
+  max-width: 156px;
 }
 
 .customers-search-input {
@@ -247,7 +247,7 @@ tbody tr:hover {
   }
 
   .customers-search-form {
-    width: 204px;
+    max-width: 204px;
   }
 
   .customers-search-input {
@@ -346,6 +346,7 @@ tbody tr:hover {
 
   .customers-search-form {
     width: 216px;
+    max-width: none;
   }
 
   .customers-search-input {
